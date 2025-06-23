@@ -1,0 +1,25 @@
+uuid: cc14bc6a-eaae-470f-a3ce-5b7f5733b674
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:38d8842f-fa20-48a9-ab37-da582ad83c9e'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_contactthepage
+theme: olivero
+region: footer_bottom
+weight: 0
+provider: null
+plugin: 'block_content:38d8842f-fa20-48a9-ab37-da582ad83c9e'
+settings:
+  id: 'block_content:38d8842f-fa20-48a9-ab37-da582ad83c9e'
+  label: 'Contact the Page'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

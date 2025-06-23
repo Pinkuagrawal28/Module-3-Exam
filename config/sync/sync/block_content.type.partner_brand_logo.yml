@@ -1,0 +1,8 @@
+uuid: c0fdd44c-95ba-43f6-bfd3-34419ec86072
+langcode: en
+status: true
+dependencies: {  }
+id: partner_brand_logo
+label: 'Partner Brand Logo'
+revision: true
+description: null

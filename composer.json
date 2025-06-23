@@ -16,12 +16,15 @@
     ],
     "require": {
         "composer/installers": "^2.3",
+        "drupal/config_split": "^2.0",
         "drupal/core-composer-scaffold": "^11.2",
         "drupal/core-project-message": "^11.2",
         "drupal/core-recipe-unpack": "^11.2",
         "drupal/core-recommended": "^11.2",
+        "drupal/devel": "^5.3",
         "drupal/image_slider": "^6.0",
         "drupal/paragraphs": "^1.19",
+        "drupal/webform": "^6.3@beta",
         "drush/drush": "^13.6"
     },
     "conflict": {

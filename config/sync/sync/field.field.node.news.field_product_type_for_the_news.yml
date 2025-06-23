@@ -1,0 +1,29 @@
+uuid: 267b22f5-589a-4792-b210-04d01c2b48fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_product_type_for_the_news
+    - node.type.news
+    - taxonomy.vocabulary.product_type
+id: node.news.field_product_type_for_the_news
+field_name: field_product_type_for_the_news
+entity_type: node
+bundle: news
+label: 'Product Type for the News'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      product_type: product_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

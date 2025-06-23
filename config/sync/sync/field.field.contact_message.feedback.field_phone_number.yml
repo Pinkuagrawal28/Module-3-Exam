@@ -1,0 +1,23 @@
+uuid: 42f0085d-da15-499f-97ff-6a000d02e10c
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.storage.contact_message.field_phone_number
+id: contact_message.feedback.field_phone_number
+field_name: field_phone_number
+entity_type: contact_message
+bundle: feedback
+label: 'Phone Number'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 10
+  max: 10
+  prefix: '+91'
+  suffix: ''
+field_type: integer

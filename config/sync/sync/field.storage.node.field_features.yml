@@ -1,0 +1,39 @@
+uuid: 050bd9a1-a1c0-4a86-8d99-29deff245606
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_features
+field_name: field_features
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: cool
+      label: Cool
+    -
+      value: smart
+      label: Smart
+    -
+      value: new
+      label: New
+    -
+      value: techy
+      label: Techy
+    -
+      value: hard
+      label: Hard
+    -
+      value: listy
+      label: listy
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

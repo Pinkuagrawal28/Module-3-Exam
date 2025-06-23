@@ -1,0 +1,19 @@
+uuid: d3641279-19e2-42ee-8353-e16b2aa13c88
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+    - field.storage.contact_message.field_first_name
+id: contact_message.feedback.field_first_name
+field_name: field_first_name
+entity_type: contact_message
+bundle: feedback
+label: 'First Name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

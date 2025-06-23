@@ -1,0 +1,32 @@
+uuid: 30503f37-49c9-4b9b-a0b2-17c34f1f3979
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.partner_brand_logo
+    - field.field.block_content.partner_brand_logo.field_our_partner
+    - image.style.thumbnail
+  module:
+    - image
+id: block_content.partner_brand_logo.default
+targetEntityType: block_content
+bundle: partner_brand_logo
+mode: default
+content:
+  field_our_partner:
+    type: image_image
+    weight: 27
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }
